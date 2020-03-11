@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "add.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitriy365377/javascriptTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitriy365377/javascriptTest/issues"
+  },
+  "homepage": "https://github.com/dmitriy365377/javascriptTest#readme",
+  "devDependencies": {
+    "mocha": "^7.1.0"
+  }
+}
