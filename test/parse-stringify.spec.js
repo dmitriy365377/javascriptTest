@@ -1,5 +1,5 @@
 const { parse, stringify } = require('../parse-stringify')
-const assert = require('assert')
+ 
 
 describe('The stringify function', () => {
     it('should stringify an object into a valid query string', () => {
@@ -8,7 +8,7 @@ describe('The stringify function', () => {
 
         const expected = 'by=kati-frantz'
 
-        assert.equal(actual, expected)
+        expect(actual).toBe(expected)
 
     })
 })
@@ -20,9 +20,8 @@ describe('The parse function', () => {
 
         const actual = parse('?by=kati-frantz')
 
-        const expected = { by: 'kati-frantz' }
+        const expected = { by: 'kati-frantz' } 
 
-
-        assert.deepEqual(actual, expected)
+        expect(actual).toEqual(expected)
     })
 })

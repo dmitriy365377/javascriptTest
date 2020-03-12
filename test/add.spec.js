@@ -1,6 +1,6 @@
 const add = require('../add')
 
-const assert = require('assert')
+
 
 
 describe('The add function', () => {
@@ -10,7 +10,7 @@ describe('The add function', () => {
 
         const expected = 4
 
-        assert.equal(actual, expected)
+        expect(actual).toBe(expected)
     })
 })
 
