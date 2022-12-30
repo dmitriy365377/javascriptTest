@@ -19,7 +19,7 @@
   "homepage": "https://github.com/dmitriy365377/javascriptTest#readme",
   "devDependencies": {
     "jest": "^25.1.0",
-    "mocha": "^7.1.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.0.0"
   }
 }
